@@ -3,6 +3,7 @@
 ### HTML
 
 **01-html**
+
 ❏ Were you able to complete the exercises on your own or did you use the
 videos or the solutions for help?
 ->I was able to complete the exercises on my own.
@@ -22,4 +23,5 @@ topic a little better?
 ### Accessibility
 
 **01-html**
+
 All the four exercises have been checked for accessibility using the Wave extension as well as the W3C Markup Validation tool for HTML. There were no errors encountered in either of these tools.
