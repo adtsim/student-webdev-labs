@@ -4,22 +4,59 @@ nav .list-item > a {
   color: var(--purple);
 }
 
+/* 
+  Elements and pseudo-elements: 2 (nav, a)
+  Classes: 1 (.list-item)
+  Specificity = (0,1,2)
+*/
+
 #main::first-letter {
   color: var(--purple);
 }
+
+/* 
+  IDs: 1 (#main)
+  Pseudo-elements: 1 (::first-letter)
+  Specificity = (1,0,1) 
+*/
 
 input[type] {
   color: var(--purple);
 }
 
+/* 
+  Elements and pseudo-elements: 1 (input)
+  Attributes: 1 ([type])
+  Specificity = (0,1,1)
+ */
+
 section .main::first-line {
   color: var(--purple);
 }
 
-nav ul.menu li#first a:not([class='visited']) {
+/*
+  Elements and pseudo-elements: 2 (section, ::first-line)
+  Classes: 1 (.main)
+  Specificity = (0,1,2)
+ */
+
+nav ul.menu li#first a:not([class="visited"]) {
   color: var(--purple);
 }
+
+/*
+  IDs: 1 (#first)
+  Elements and pseudo-elements: 3 (nav, li, ul, a)
+  Classes: 1 (.menu)
+  Attribute selectors: 1 (:not([class='visited']))
+  Specificity = (1,2,4)
+*/
 
 div ol li ul li ol li ul li a {
   color: var(--purple);
 }
+
+/*
+  Elements and pseudo-elements: 10 (div, ol, li, ul, li, ol, li, ul, li, a)
+  Specificity = (0,0,10)
+*/
