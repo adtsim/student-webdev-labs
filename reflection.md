@@ -149,6 +149,27 @@ topic a little better?
 
 ->No.
 
+**08-jquery**
+
+❏ Were you able to complete the exercises on your own or did you use the
+videos or the solutions for help?
+
+->I used the solutions for help.
+
+❏ How helpful did you find the exercises in this section? Was there one
+exercise that was particularly helpful?
+
+->Both the exercises were very helpful in understanding jqueries easily and clearly. Although I mostly used the solutions to complete 02-ajax in particular, I will be able to handle jqueries much better in the future because of these exercises.
+
+❏ Was there something that you wish had been explained better?
+
+->No.
+
+❏ Were there other exercises that might have helped you learn this week’s
+topic a little better?
+
+->No.
+
 ### Accessibility
 
 **01-html**
@@ -180,3 +201,7 @@ The bootstrap exercises have been checked for accessibility using the Wave exten
 **07-javascript**
 
 The javascript exercises have been checked for accessibility using the Wave extension as well as the W3C Markup Validation tool for HTML and CSS. There were no errors encountered in either of these tools.
+
+**08-jquery**
+
+The jquery exercises have been checked for accessibility using the Wave extension as well as the W3C Markup Validation tool for HTML. There were no errors encountered in either of these tools.
