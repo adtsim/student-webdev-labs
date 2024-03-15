@@ -128,6 +128,27 @@ topic a little better?
 
 ->No.
 
+**07-javascript**
+
+❏ Were you able to complete the exercises on your own or did you use the
+videos or the solutions for help?
+
+->I was able to complete the exercises by referencing the videos.
+
+❏ How helpful did you find the exercises in this section? Was there one
+exercise that was particularly helpful?
+
+->The exercises were very helpful, especially the ones about dom, destructuring and functional. It was very interesting to learn about these concepts in javascript.
+
+❏ Was there something that you wish had been explained better?
+
+->No.
+
+❏ Were there other exercises that might have helped you learn this week’s
+topic a little better?
+
+->No.
+
 ### Accessibility
 
 **01-html**
@@ -155,3 +176,7 @@ The grid exercises have been checked for accessibility using the Wave extension 
 **06-bootstrap**
 
 The bootstrap exercises have been checked for accessibility using the Wave extension as well as the W3C Markup Validation tool for HTML. There were no errors encountered in either of these tools.
+
+**07-javascript**
+
+The javascript exercises have been checked for accessibility using the Wave extension as well as the W3C Markup Validation tool for HTML and CSS. There were no errors encountered in either of these tools.
