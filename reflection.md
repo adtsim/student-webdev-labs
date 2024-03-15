@@ -86,6 +86,27 @@ topic a little better?
 
 ->No.
 
+**05-css-grid**
+
+❏ Were you able to complete the exercises on your own or did you use the
+videos or the solutions for help?
+
+->I was able to complete the exercises on my own.
+
+❏ How helpful did you find the exercises in this section? Was there one
+exercise that was particularly helpful?
+
+->The exercises in this section were very helpful in understanding the concept of css grid.
+
+❏ Was there something that you wish had been explained better?
+
+->No.
+
+❏ Were there other exercises that might have helped you learn this week’s
+topic a little better?
+
+->No.
+
 ### Accessibility
 
 **01-html**
@@ -104,4 +125,8 @@ All the six exercises have been verified for accessibility using the Wave extens
 
 **04-flexbox**
 
-The flexbox exercise has been checked for accessibility using the Wave extension as well as the W3C Markup Validation tool for HTML. There were no errors encountered in either of these tools.
+The flexbox exercise has been checked for accessibility using the Wave extension as well as the W3C Markup Validation tool for HTML and CSS. There were no errors encountered in either of these tools.
+
+**05-css-grid**
+
+The grid exercises have been checked for accessibility using the Wave extension as well as the W3C Markup Validation tool for HTML and CSS. There were no errors encountered in either of these tools.

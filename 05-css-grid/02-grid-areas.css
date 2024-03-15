@@ -1,9 +1,33 @@
+.header .article,
+.aside,
+.section,
+.footer {
+  border-radius: 10px;
+}
+
 .header {
   grid-area: header;
+  text-align: left;
 }
 
 .article {
   grid-area: article;
+  text-align: left;
+}
+
+.aside {
+  grid-area: aside;
+  text-align: left;
+}
+
+.section {
+  grid-area: section;
+  text-align: left;
+}
+
+.footer {
+  grid-area: footer;
+  text-align: left;
 }
 
 .grid-container {
@@ -13,12 +37,74 @@
   grid-template-rows: repeat(8, 1fr);
   gap: 10px;
   grid-template-areas:
-    'header'
-    'article'
-    'article'
-    'section'
-    'section'
-    'section'
-    'aside'
-    'footer';
+    "header"
+    "article"
+    "article"
+    "section"
+    "section"
+    "section"
+    "aside"
+    "footer";
+}
+
+@media (min-width: 576px) and (max-width: 760px) {
+  .grid-container {
+    display: grid;
+    height: 97vh;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 4fr 3fr 1fr;
+    gap: 10px;
+    grid-template-areas:
+      "header   header"
+      "article  aside"
+      "section  section"
+      "footer   footer";
+  }
+}
+
+@media (min-width: 993px) {
+  .grid-container {
+    display: grid;
+    height: 97vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 4fr 3fr 1fr;
+    gap: 10px;
+    grid-template-areas:
+      "header   header    header"
+      "article  aside     aside"
+      "section  section   section"
+      "footer   footer    footer";
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
 }
