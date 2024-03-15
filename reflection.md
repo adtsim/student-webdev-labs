@@ -107,6 +107,27 @@ topic a little better?
 
 ->No.
 
+**06-bootstrap**
+
+❏ Were you able to complete the exercises on your own or did you use the
+videos or the solutions for help?
+
+->I was able to complete the exercises on my own with a little help from the videos.
+
+❏ How helpful did you find the exercises in this section? Was there one
+exercise that was particularly helpful?
+
+->As a beginner to bootstrap, the videos were very helpful in understanding bootstrap and its working
+
+❏ Was there something that you wish had been explained better?
+
+->No.
+
+❏ Were there other exercises that might have helped you learn this week’s
+topic a little better?
+
+->No.
+
 ### Accessibility
 
 **01-html**
@@ -130,3 +151,7 @@ The flexbox exercise has been checked for accessibility using the Wave extension
 **05-css-grid**
 
 The grid exercises have been checked for accessibility using the Wave extension as well as the W3C Markup Validation tool for HTML and CSS. There were no errors encountered in either of these tools.
+
+**06-bootstrap**
+
+The bootstrap exercises have been checked for accessibility using the Wave extension as well as the W3C Markup Validation tool for HTML. There were no errors encountered in either of these tools.
